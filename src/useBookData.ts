@@ -1,4 +1,5 @@
 import { useState, useEffect} from "react";
+import { BookDescription } from "./BookDescription";
 
 function buildSearchUrl(
     title: string,

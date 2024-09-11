@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import { BookToRead } from "./BookToRead";
 import BookRow from "./BookRow";
@@ -23,26 +23,26 @@ const customStyles = {
   },
 };
 
-const dummyBooks: BookToRead[] = [
-  {
-    id: 1,
-    title: "はじめてのReact",
-    authors: "ダミー",
-    memo: "",
-  },
-  {
-    id: 2,
-    title: "React Hooks入門",
-    authors: "ダミー",
-    memo: "",
-  },
-  {
-    id: 3,
-    title: "実践Reactアプリケーション開発",
-    authors: "ダミー",
-    memo: "",
-  },
-];
+// const dummyBooks: BookToRead[] = [
+//   {
+//     id: 1,
+//     title: "はじめてのReact",
+//     authors: "ダミー",
+//     memo: "",
+//   },
+//   {
+//     id: 2,
+//     title: "React Hooks入門",
+//     authors: "ダミー",
+//     memo: "",
+//   },
+//   {
+//     id: 3,
+//     title: "実践Reactアプリケーション開発",
+//     authors: "ダミー",
+//     memo: "",
+//   },
+// ];
 
 const APP_KEY = "react-hooks-tutorial";
 
